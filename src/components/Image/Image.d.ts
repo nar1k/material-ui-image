@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 export interface ImageProps {
+    id? : string,
     animationDuration?: number,
     aspectRatio?: number,
     color?: string,
